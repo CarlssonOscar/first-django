@@ -6,7 +6,8 @@ from django.http import HttpResponse
 # Request handler
 
 def say_hello(request):
-    # pull data from db
-    # Transform data
-    # send email
     return HttpResponse('Hello World!')
+
+# pull data from db
+# Transform data
+# send email

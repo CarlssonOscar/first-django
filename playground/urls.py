@@ -4,5 +4,5 @@ from . import views
 
 # URLconf, kopplas till projektnamn (fristdjango)/urls.py
 urlpatterns = [
-    path('playground/hello', views.say_hello)
+    path('hello/', views.say_hello)
 ]

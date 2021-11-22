@@ -5,7 +5,7 @@ from django.http import HttpResponse
 # A view-function takes a request and returns a respons
 # Request handler
 
-def say_hello(request):
+def sayhello(request):
     return HttpResponse('Hello World!')
 
 # pull data from db

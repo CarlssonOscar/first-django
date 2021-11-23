@@ -6,7 +6,7 @@ from django.http import HttpResponse
 # Request handler
 
 def sayhello(request):
-    return HttpResponse('Hello World!')
+    return render(request, 'hello.html', {'name': 'Oscar'})
 
 # pull data from db
 # Transform data
